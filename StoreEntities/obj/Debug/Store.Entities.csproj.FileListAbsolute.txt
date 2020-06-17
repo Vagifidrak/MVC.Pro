@@ -1,0 +1,5 @@
+C:\Users\МММ\source\repos\StoreProject\StoreEntities\obj\Debug\Store.Entities.csproj.CoreCompileInputs.cache
+C:\Users\МММ\source\repos\StoreProject\StoreEntities\obj\Debug\StoreEntities.dll
+C:\Users\МММ\source\repos\StoreProject\StoreEntities\obj\Debug\StoreEntities.pdb
+C:\Users\МММ\source\repos\StoreProject\StoreEntities\bin\Debug\StoreEntities.dll
+C:\Users\МММ\source\repos\StoreProject\StoreEntities\bin\Debug\StoreEntities.pdb

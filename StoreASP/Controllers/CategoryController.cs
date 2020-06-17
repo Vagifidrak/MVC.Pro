@@ -1,5 +1,5 @@
 ﻿using Store.Services;
-using StoreEntities;
+using Store.Entities;
 using System;
 using System.Collections.Generic;
 using System.Linq;

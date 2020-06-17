@@ -1,5 +1,5 @@
 ﻿using Store.Database;
-using StoreEntities;
+using Store.Entities;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -25,7 +25,7 @@ namespace Store.Services
                return db.Products.ToList();
             }
         }
-        public Product GetProduct(int ID)
+        public Product GetProduct(int? ID)
         {
             using (ShopContext db = new ShopContext())
             {

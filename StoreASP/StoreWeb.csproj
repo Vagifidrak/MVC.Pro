@@ -179,6 +179,7 @@
     <Compile Include="Controllers\ManageController.cs" />
     <Compile Include="Controllers\ProductController.cs" />
     <Compile Include="Controllers\SharedController.cs" />
+    <Compile Include="Controllers\TestController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -795,6 +796,8 @@
     <Content Include="Views\Product\ProductTable.cshtml" />
     <Content Include="Views\Product\Create.cshtml" />
     <Content Include="Views\Product\Edit.cshtml" />
+    <Content Include="Views\Test\Index.cshtml" />
+    <Content Include="Views\Test\Detail.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
@@ -819,9 +822,9 @@
       <Project>{2F3CD777-97A8-4332-8C07-1A49683A4AD5}</Project>
       <Name>Store.Services</Name>
     </ProjectReference>
-    <ProjectReference Include="..\StoreEntities\StoreEntities.csproj">
+    <ProjectReference Include="..\StoreEntities\Store.Entities.csproj">
       <Project>{1B29E5B8-9CBD-4100-9A4B-B8B01E0433E5}</Project>
-      <Name>StoreEntities</Name>
+      <Name>Store.Entities</Name>
     </ProjectReference>
   </ItemGroup>
   <PropertyGroup>

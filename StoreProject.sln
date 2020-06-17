@@ -5,7 +5,7 @@ VisualStudioVersion = 16.0.30011.22
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StoreWeb", "StoreASP\StoreWeb.csproj", "{3534462A-3A55-4B82-8CA5-AC64E2003F7A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StoreEntities", "StoreEntities\StoreEntities.csproj", "{1B29E5B8-9CBD-4100-9A4B-B8B01E0433E5}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Store.Entities", "StoreEntities\Store.Entities.csproj", "{1B29E5B8-9CBD-4100-9A4B-B8B01E0433E5}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Store.Database", "Store.Database\Store.Database.csproj", "{77847CD0-439F-47BE-AE6F-A49F61EE12E0}"
 EndProject

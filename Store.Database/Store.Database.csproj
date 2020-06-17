@@ -72,9 +72,9 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\StoreEntities\StoreEntities.csproj">
+    <ProjectReference Include="..\StoreEntities\Store.Entities.csproj">
       <Project>{1B29E5B8-9CBD-4100-9A4B-B8B01E0433E5}</Project>
-      <Name>StoreEntities</Name>
+      <Name>Store.Entities</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>

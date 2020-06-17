@@ -1,0 +1,13 @@
+﻿@model List<Product>
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Areas/StoreAdmin/Views/Shared/LayoutAdmin.cshtml";
+}
+
+<h2>Index</h2>
+@foreach (var item in Model)
+{
+    <h3>@item.Name</h3>
+    <p>@item.Price</p>
+    <a href="@Url.Action("Detail","Test",new { id = item.ID })">Daha Ətraflı</a>
+}
